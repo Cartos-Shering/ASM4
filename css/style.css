@@ -1,0 +1,122 @@
+/* Dich logo vao giua, thay doi vi tri o search khi man hinh be lai */
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #smallSearch {
+        display: none;
+    }
+    
+}
+@media (min-width: 576px) {
+    #bigSearch {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .icons {
+    position: absolute !important;
+    left: 20px !important;
+    }
+}
+
+/* Chu home vang, search trang */
+
+.yellowText {
+    color: #FCD000 !important;
+}
+
+.whiteText {
+    color: #feffff !important;
+}
+
+.banner {
+    width: 100%;
+}
+
+#communication {
+    background-image: url('../Communication.jpg');
+    background-size: cover;
+}
+
+.footer-top {
+    background: #1B1919;
+    padding: 80px;
+    
+}
+
+.footer-top * {
+    color: aliceblue; 
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: #1B1919;
+    color: aliceblue;
+    border-top-style: solid;
+}
+
+.formBox {
+    margin;
+}
+
+.formBox input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.formBox textarea {
+    margin: 5px;
+    padding: 5px;
+    resize: none
+}
+
+.mainHeadlines {
+    font-size: 18px;
+}
+
+.noBlue {
+    color: black;
+}
+
+.iconsLi {
+    list-style-type: none;
+    color: aliceblue !important;
+    margin-left: 70px
+}
+
+.icons {
+position: absolute;
+left: -50px;
+}
+
+.listing {
+    margin: 15px;
+}
+
+.well {
+    background: #F9F9F9;
+    height: 129px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    font-size: 65%;
+    font-weight: bold;
+    border-style: solid none
+}
+
+.well .col-4 {
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding: 5px
+}
+
+
+
+
+
+
